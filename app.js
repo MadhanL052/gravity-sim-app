@@ -50,6 +50,6 @@ function drawScene() {
   ctx.fillRect(0, canvas.height - 20, canvas.width, 20);
 
   // Draw car
-  ctx.fillStyle = hasCollided ? "gray" : car.color;
+  ctx.fillStyle = hasCollided ? "green" : car.color;
   ctx.fillRect(car.x, car.y, car.width, car.height);
 }
